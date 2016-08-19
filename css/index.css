@@ -1,0 +1,266 @@
+body{margin:0;padding:0;font:12px \5FAE\8F6F\96C5\9ED1,Arial,sans-serif;color:#444;_background-image:url(about:blank);_background-attachment:fixed}
+div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,blockquote,p{padding:0;margin:0}
+body,input,select,button,textarea{font:12px \5FAE\8F6F\96C5\9ED1,Arial,sans-serif}
+table,td,tr,th{font-size:12px}
+ol,ul{list-style:none}
+li{list-style-type:none}
+img{vertical-align:middle;border:0}
+input{outline:medium none}
+s{text-decoration:none}
+/*a{color:#444444;text-decoration:none}
+a a:hover{color:#a41f24;text-decoration:underline}*/
+.clearfix{*zoom:1}
+.clearfix:before,.clearfix:after{display:table;content:"";line-height:0}
+.clearfix:after{clear:both}
+.f_l{float:left}
+.f_r{float:right}
+.returnTop{background:url("/images/trade/discount/top.jpg") no-repeat;bottom:100px;display:none;height:50px;margin-right:-620px;position:fixed;right:50%;text-indent:-99999px;width:50px;z-index:9}
+.voice-paging{padding:15px 0;text-align:center}
+.voice-paging a{display:inline-block;padding:8px 14px;border:1px solid #ccc;font-family:Tahoma;text-align:center;color:#666666}
+.voice-paging .cur,.voice-paging a:hover{display:inline-block;padding:8px 14px;border:1px solid #b50000;font-family:Tahoma;background:#b50000;color:#fff !important;text-align:center;text-decoration:none}
+.pages-list{color:#666;margin-top:20px;text-align:center}
+.pages-list a{border:1px solid #c4c4c4;color:#666;display:inline-block;font-size:14px;height:35px;line-height:35px;margin-right:3px;padding:0 15px}
+.pages-list a:hover,.pages-list a.on{background-color:#b50000;color:#fff;text-decoration:none}
+.pages-list span.un-link{border:1px solid #c4c4c4;display:inline-block;font-size:14px;height:35px;line-height:35px;margin-right:3px;padding:0 10px}
+.pages-list .all-page{color:#999999;font-size:14px;padding:0 10px}
+.pages-list .goto{color:#999999;font-size:14px}
+.pages-list .goto input{border:1px solid #c4c4c4;height:20px;text-align:center;vertical-align:middle;width:50px}
+.pages-list .goto .sub{background-color:#b50000;color:#fff;cursor:pointer;display:none;height:22px;line-height:20px;padding:0 10px;vertical-align:middle}
+.pages-list .goto .sub{background-color:#b50000;color:#fff;cursor:pointer;display:none;height:22px;line-height:20px;padding:0 10px;vertical-align:middle}
+.J_ui_picSwitch{width:627px;height:250px;overflow:hidden;position:relative}
+.J_ui_picSwitch .J_ui_post{position:relative;left:0;top:0}
+.J_ui_picSwitch .J_ui_post li{position:relative}
+.J_ui_picSwitch .J_ui_post li img{width:627px;height:250px}
+.J_ui_picSwitch .J_ui_a{position:absolute;bottom:10px;left:0;z-index:10;width:100%;text-align:center}
+.J_ui_picSwitch .J_ui_a li{background-color:#fff;width:10px;height:10px;border-radius:5px;display:inline-block;margin-right:6px;cursor:pointer}
+.J_ui_picSwitch .J_ui_a li.on{background-color:#ad0007;color:#fff}
+.J_ui_picSwitch .J_ui_postFloat li{float:left;overflow:hidden}
+.J_ui_picSwitch .J_ui_postPost li{position:absolute;left:0;top:0}
+.J_ui_picSwitch .J_ui_butPost_a{background:url("../images/prev.png") no-repeat left top;_background:none;_filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled='true', sizingMethod='corp', src='/images/trade/haitao/index/l1.png');width:34px;height:62px;position:absolute;left:0;top:110px;cursor:pointer;display:none}
+.J_ui_picSwitch .J_ui_butPost_b{background:url("../images/next.png") no-repeat right top;_background:none;_filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled='true', sizingMethod='corp', src='/images/trade/haitao/index/r1.png');width:34px;height:62px;position:absolute;right:0;top:110px;cursor:pointer;display:none}
+.tuio{background-color:#fff;height:62px;opacity:0;filter:alpha(opacity=0)}
+body a:hover{text-decoration:none !important}
+.shihuo-content-wrap{width:1080px;font:12px \5FAE\8F6F\96C5\9ED1,Arial,sans-serif;margin:0 auto;font-family:"MicroSoft YaHei" !important}
+.shihuo-content-wrap .top-area{padding-top:10px}
+.shihuo-content-wrap .top-area .nav-list-main{width:230px;height:450px;float:left;font-family:"Microsoft Yahei";margin-right:10px;position:relative;z-index:50}
+.shihuo-content-wrap .top-area .nav-list-main .list-item{position:relative;z-index:50}
+.shihuo-content-wrap .top-area .nav-list-main li{width:228px;height:43px;border:1px solid #b50000;background-color:#b50000;line-height:43px}
+.shihuo-content-wrap .top-area .nav-list-main li a{color:#FFFFFF;margin:0 3px}
+.shihuo-content-wrap .top-area .nav-list-main li a:hover{color:#b50000}
+.shihuo-content-wrap .top-area .nav-list-main li.block{background-color:#FFFFFF}
+.shihuo-content-wrap .top-area .nav-list-main li.block>div{text-decoration:none;color:#b50000;transform:translate(10px);-webkit-transform:translate(10px);-moz-transform:translate(10px);transition:all .3s;-webkit-transition:all .3s;-moz-transition:all .3s;background-color:transparent}
+.shihuo-content-wrap .top-area .nav-list-main li.block a{color:#b50000}
+.shihuo-content-wrap .top-area .nav-list-main li>div{display:block;color:#FFFFFF;position:relative;font-size:14px}
+.shihuo-content-wrap .top-area .nav-list-main li>div>div{text-align:center;width:30px;margin:0 2px 0 10px;display:inline-block;*display:inline;*zoom:1;vertical-align:middle}
+.shihuo-content-wrap .top-area .nav-list-main li>div>div i{display:inline-block;*display:inline;*zoom:1}
+.shihuo-content-wrap .top-area .nav-list-main li s{display:block;position:absolute;right:15px;top:50%;margin-top:-6px}
+.shihuo-content-wrap .top-area .nav-list-main .nav-grid{width:637px;height:448px;border:1px solid #b50000;border-left:none;background-color:#FFFFFF;position:absolute;left:229px;top:0;display:none;z-index:51}
+.shihuo-content-wrap .top-area .nav-list-main .nav-grid.block{display:block;transition:all .3s;-webkit-transition:all .3s;-moz-transition:all .3s}
+.shihuo-content-wrap .top-area .nav-list-main .nav-grid .section{width:100%;height:100%;position:absolute;top:0;left:0;display:none;background-color:#FFFFFF}
+.shihuo-content-wrap .top-area .nav-list-main .nav-grid .section.block{display:block}
+.shihuo-content-wrap .top-area .nav-list-main .nav-grid .section dl{width:550px;margin-left:30px;padding:10px 0;border-bottom:1px solid #e5e5e5;font-size:14px;line-height:26px;position:relative;background-color:#FFFFFF;z-index:52}
+.shihuo-content-wrap .top-area .nav-list-main .nav-grid .section dl:first-child{border-bottom:none;line-height:46px}
+.shihuo-content-wrap .top-area .nav-list-main .nav-grid .section dl:first-child img{display:inline-block;*display:inline;*zoom:1;vertical-align:middle}
+.shihuo-content-wrap .top-area .nav-list-main .nav-grid .section dl:nth-last-child(2){border-bottom:none}
+.shihuo-content-wrap .top-area .nav-list-main .nav-grid .section dl dt{color:#eb252a;float:left;width:100px;text-align:left}
+.shihuo-content-wrap .top-area .nav-list-main .nav-grid .section dl dd{float:left;width:450px}
+.shihuo-content-wrap .top-area .nav-list-main .nav-grid .section dl dd a{color:#333333;margin-right:30px}
+.shihuo-content-wrap .top-area .nav-list-main .nav-grid .section dl dd a:hover{color:#eb252a;text-decoration:underline}
+.shihuo-content-wrap .top-area .nav-list-main .nav-grid .nav-grid-img{width:500px;height:155px;overflow:hidden;position:absolute;left:50%;margin-left:-250px;bottom:10px;z-index:51}
+.shihuo-content-wrap .top-area .nav-list-main .nav-grid .nav-grid-img a{width:100%;height:100%;display:block;margin:0}
+.shihuo-content-wrap .top-area .nav-list-main .nav-grid .nav-grid-img img{height:155px;display:block;margin:0 auto}
+.shihuo-content-wrap .top-area .Js_pic{float:left;width:627px;height:450px}
+.shihuo-content-wrap .top-area .Js_pic .scroll-area{width:627px;height:200px;position:relative;overflow:hidden}
+.shihuo-content-wrap .top-area .Js_pic .scroll-area .prev{background:url("../images/prev.png") no-repeat center;_background:none;_filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled='true', sizingMethod='corp', src='/images/trade/haitao/index/slide_left.png');width:19px;height:40px;position:absolute;left:10px;top:78px;z-index:10;cursor:pointer;opacity:.5}
+.shihuo-content-wrap .top-area .Js_pic .scroll-area .next{background:url('../images/next.png') no-repeat center;_background:none;_filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled='true', sizingMethod='corp', src='/images/trade/haitao/index/slide_right.png');width:20px;height:40px;position:absolute;right:10px;top:78px;z-index:10;cursor:pointer}
+.shihuo-content-wrap .top-area .Js_pic .scroll-area .ul-box{width:627px;height:200px;overflow:hidden}
+.shihuo-content-wrap .top-area .Js_pic .scroll-area .ul-box #good-ul{width:10000px;position:relative;font-family:"Microsoft Yahei"}
+.shihuo-content-wrap .top-area .Js_pic .scroll-area .ul-box #good-ul ul{overflow:hidden;float:left}
+.shihuo-content-wrap .top-area .Js_pic .scroll-area .ul-box #good-ul ul li{float:left;width:209px;height:200px;overflow:hidden;text-align:center}
+.shihuo-content-wrap .top-area .Js_pic .scroll-area .ul-box #good-ul ul li .imgs{overflow:hidden;width:100%;height:100%}
+.shihuo-content-wrap .top-area .Js_pic .scroll-area .ul-box #good-ul ul li .imgs a{display:block;width:100%;height:100%}
+.shihuo-content-wrap .top-area .Js_pic .scroll-area .ul-box #good-ul ul li .imgs a img{width:100%}
+.shihuo-content-wrap .top-area .tips-sub{width:205px;height:445px;float:right}
+.shihuo-content-wrap .top-area .tips-sub .ban_rig{width:100%;overflow:hidden;margin-top:10px}
+.shihuo-content-wrap .top-area .tips-sub .ban_rig a{display:block;position:relative}
+.shihuo-content-wrap .top-area .tips-sub .ban_rig a ul{display:inline-block;height:41px}
+.shihuo-content-wrap .top-area .tips-sub .ban_rig a ul li{display:inline-block;float:left}
+.shihuo-content-wrap .top-area .tips-sub .ban_rig a ul li span{display:block;float:left}
+.shihuo-content-wrap .top-area .tips-sub .ban_rig .timewrap{display:block;height:41px;left:0;position:absolute;text-align:center;top:13px;transform:rotate(-3deg);width:100%}
+.shihuo-content-wrap .top-area .tips-sub .ban_rig .timewrap .icon-0{background-image:url(/images/trade/haitao/index/sprites-haitao-icon.png);background-position:0 -152px;width:25px;height:26px}
+.shihuo-content-wrap .top-area .tips-sub .ban_rig .timewrap .icon-1{background-image:url(/images/trade/haitao/index/sprites-haitao-icon.png);background-position:0 0;width:17px;height:24px}
+.shihuo-content-wrap .top-area .tips-sub .ban_rig .timewrap .icon-2{background-image:url(/images/trade/haitao/index/sprites-haitao-icon.png);background-position:0 -179px;width:23px;height:26px}
+.shihuo-content-wrap .top-area .tips-sub .ban_rig .timewrap .icon-3{background-image:url(/images/trade/haitao/index/sprites-haitao-icon.png);background-position:0 -75px;width:22px;height:26px}
+.shihuo-content-wrap .top-area .tips-sub .ban_rig .timewrap .icon-4{background-image:url(/images/trade/haitao/index/sprites-haitao-icon.png);background-position:0 -102px;width:24px;height:24px}
+.shihuo-content-wrap .top-area .tips-sub .ban_rig .timewrap .icon-5{background-image:url(/images/trade/haitao/index/sprites-haitao-icon.png);background-position:0 -127px;width:25px;height:26px}
+.shihuo-content-wrap .top-area .tips-sub .ban_rig .timewrap .icon-6{background-image:url(/images/trade/haitao/index/sprites-haitao-icon.png);background-position:0 -50px;width:23px;height:26px}
+.shihuo-content-wrap .top-area .tips-sub .ban_rig .timewrap .icon-7{background-image:url(/images/trade/haitao/index/sprites-haitao-icon.png);background-position:0 -25px;width:21px;height:25px}
+.shihuo-content-wrap .top-area .tips-sub .ban_rig .timewrap .icon-8{background-image:url(/images/trade/haitao/index/sprites-haitao-icon.png);background-position:0 -205px;width:23px;height:25px}
+.shihuo-content-wrap .top-area .tips-sub .ban_rig .timewrap .icon-9{background-image:url(/images/trade/haitao/index/sprites-haitao-icon.png);background-position:0 -230px;width:22px;height:25px}
+.shihuo-content-wrap .top-area .tips-sub .ban_rig .timewrap .icon-day{background-image:url(/images/trade/haitao/index/sprites-haitao-icon.png);background-position:0 -256px;width:25px;height:25px}
+.shihuo-content-wrap .top-area .tips-sub .ban_rig .timewrap .icon-month{background-image:url(/images/trade/haitao/index/sprites-haitao-icon.png);background-position:0 -282px;width:25px;height:25px}
+.shihuo-content-wrap .top-area .tips-sub .oneGo{text-align:center;color:#fff;font-size:13px;width:205px;height:105px;overflow:hidden;padding:0;background:url('http://sh1.hoopchina.com.cn/images/trade/haitao/index/haitao_index_image1.png') no-repeat center center transparent}
+.shihuo-content-wrap .top-area .tips-sub .oneGo a{display:block;height:100%;width:100%;color:#fff;text-decoration:none}
+.shihuo-content-wrap .top-area .tips-sub .oneGo a img{display:block;margin:55px auto 0;transition:all .3s;-webkit-transition:all .3s;-moz-transition:all .3s}
+.shihuo-content-wrap .top-area .tips-sub .oneGo:hover img{opacity:.6}
+.shihuo-content-wrap .top-area .tips-sub .notes{border:1px #ebebeb solid;margin-top:10px;height:216px}
+.shihuo-content-wrap .top-area .tips-sub .notes h2{line-height:30px;font-size:16px;background-color:#f5f5f5;padding-left:5px;-webkit-text-stroke:.1px #333333;text-stroke:.1px #333333}
+.shihuo-content-wrap .top-area .tips-sub .notes h2 a{float:right;font-weight:normal;font-size:14px;margin-right:10px}
+.shihuo-content-wrap .top-area .tips-sub .notes .box{font-size:14px}
+.shihuo-content-wrap .top-area .tips-sub .notes .box ul{line-height:24px;padding:5px 0 0 5px}
+.shihuo-content-wrap .top-area .tips-sub .notes .box ul li{margin-bottom:7px}
+.shihuo-content-wrap .top-area .tips-sub .notes .box ul a{color:#666666;text-overflow:ellipsis;white-space:nowrap;overflow:hidden;display:block;padding-right:5px}
+.shihuo-content-wrap .top-area .tips-sub .notes .box ul a:hover{color:#a41f24}
+.shihuo-content-wrap .top-area .tips-sub .notes .box ul s{color:#b50000;-webkit-text-stroke:.1px #b50000;text-stroke:.1px #b50000}
+.shihuo-content-wrap .top-area .tips-sub .notes .box .em{width:70px;color:#444444;font-size:14px;line-height:35px}
+.shihuo-content-wrap .top-area .tips-sub .notes .box .em a{color:#666;font-size:14px}
+.shihuo-content-wrap .top-area .tips-sub .notes .box .em a.light,.shihuo-content-wrap .top-area .tips-sub .notes .box .em a:hover{color:#f03939}
+.shihuo-content-wrap .top-area .tips-sub .notes .box .fl{border-right:1px solid #eeeeee}
+.shihuo-content-wrap .top-area .tips-sub .notes .box .links{display:inline-block;margin:7px 4px 0 4px}
+.shihuo-content-wrap .top-area .icon-arrow{background-image:url(../../../images/trade/haitao/index/sprites-product-icon.png);background-position:0 0;width:7px;height:12px}
+.shihuo-content-wrap .top-area .icon-tag1-hover{background-image:url(../../../images/trade/haitao/index/sprites-product-icon.png);background-position:0 -376px;width:20px;height:24px}
+.shihuo-content-wrap .top-area .icon-tag1{background-image:url(../../../images/trade/haitao/index/sprites-product-icon.png);background-position:0 -400px;width:20px;height:24px}
+.shihuo-content-wrap .top-area .icon-tag10-hover{background-image:url(../../../images/trade/haitao/index/sprites-product-icon.png);background-position:0 -48px;width:19px;height:18px}
+.shihuo-content-wrap .top-area .icon-tag10{background-image:url(../../../images/trade/haitao/index/sprites-product-icon.png);background-position:0 -66px;width:19px;height:18px}
+.shihuo-content-wrap .top-area .icon-tag2-hover{background-image:url(../../../images/trade/haitao/index/sprites-product-icon.png);background-position:0 -103px;width:26px;height:19px}
+.shihuo-content-wrap .top-area .icon-tag2{background-image:url(../../../images/trade/haitao/index/sprites-product-icon.png);background-position:0 -141px;width:26px;height:19px}
+.shihuo-content-wrap .top-area .icon-tag3-hover{background-image:url(../../../images/trade/haitao/index/sprites-product-icon.png);background-position:0 -266px;width:15px;height:22px}
+.shihuo-content-wrap .top-area .icon-tag3{background-image:url(../../../images/trade/haitao/index/sprites-product-icon.png);background-position:0 -244px;width:15px;height:22px}
+.shihuo-content-wrap .top-area .icon-tag4-hover{background-image:url(../../../images/trade/haitao/index/sprites-product-icon.png);background-position:0 -160px;width:15px;height:21px}
+.shihuo-content-wrap .top-area .icon-tag4{background-image:url(../../../images/trade/haitao/index/sprites-product-icon.png);background-position:0 -181px;width:15px;height:21px}
+.shihuo-content-wrap .top-area .icon-tag5-hover{background-image:url(../../../images/trade/haitao/index/sprites-product-icon.png);background-position:0 -202px;width:20px;height:21px}
+.shihuo-content-wrap .top-area .icon-tag5{background-image:url(../../../images/trade/haitao/index/sprites-product-icon.png);background-position:0 -223px;width:20px;height:21px}
+.shihuo-content-wrap .top-area .icon-tag6-hover{background-image:url(../../../images/trade/haitao/index/sprites-product-icon.png);background-position:0 -84px;width:22px;height:19px}
+.shihuo-content-wrap .top-area .icon-tag6{background-image:url(/images/trade/haitao/index/sprites-product-icon.png);background-position:0 -122px;width:22px;height:19px}
+.shihuo-content-wrap .top-area .icon-tag7-hover{background-image:url(/images/trade/haitao/index/sprites-product-icon.png);background-position:0 -354px;width:20px;height:22px}
+.shihuo-content-wrap .top-area .icon-tag7{background-image:url(/images/trade/haitao/index/sprites-product-icon.png);background-position:0 -288px;width:20px;height:22px}
+.shihuo-content-wrap .top-area .icon-tag8-hover{background-image:url(/images/trade/haitao/index/sprites-product-icon.png);background-position:0 -310px;width:23px;height:22px}
+.shihuo-content-wrap .top-area .icon-tag8{background-image:url(/images/trade/haitao/index/sprites-product-icon.png);background-position:0 -332px;width:23px;height:22px}
+.shihuo-content-wrap .top-area .icon-tag9-hover{background-image:url(/images/trade/haitao/index/sprites-product-icon.png);background-position:0 -30px;width:18px;height:18px}
+.shihuo-content-wrap .top-area .icon-tag9{background-image:url(/images/trade/haitao/index/sprites-product-icon.png);background-position:0 -12px;width:18px;height:18px}
+.shihuo-content-wrap .area-list{margin:20px 0;width:1080px;position:relative}
+.shihuo-content-wrap .area-list .title{border-bottom:1px solid #b50000;width:1077px;position:relative;z-index:10}
+.shihuo-content-wrap .area-list .title .fonts{float:left;font-size:22px;color:#333333;padding-bottom:6px;-webkit-text-stroke:.1px #333333;text-stroke:.1px #333333}
+.shihuo-content-wrap .area-list .title .fonts span{font-size:14px;color:#000000;padding-left:10px;-webkit-text-stroke:0;text-stroke:0}
+.shihuo-content-wrap .area-list .title .more{float:right;font-size:14px;margin-top:5px;line-height:18px;font-weight:bold}
+.shihuo-content-wrap .area-list .title .more a{width:100%;height:100%;display:block;color:#000}
+.shihuo-content-wrap .area-list .title .tag-list{float:right;border-bottom:0;height:40px;line-height:18px;margin-top:-4px;margin-right:15px}
+.shihuo-content-wrap .area-list .title .tag-list .t1{display:inline-block;padding:9px 12px;height:20px;position:relative;vertical-align:middle;color:#333333}
+.shihuo-content-wrap .area-list .title .tag-list .t1 span{font-size:14px}
+.shihuo-content-wrap .area-list .title .tag-list .t1 s{float:right;color:#e5e5e5;position:absolute;right:0}
+.shihuo-content-wrap .area-list .title .tag-list .t1.on{border:1px #b50000 solid;border-bottom:1px #FFFFFF solid;margin-left:-1px;background-color:#fff;font-weight:bold;font-size:14px;color:#b50000;line-height:20px;margin-top:1px}
+.shihuo-content-wrap .area-list .title .tag-list .t1.on s{display:none}
+.shihuo-content-wrap .area-list .title .tag-list .t1:hover{text-decoration:none}
+.shihuo-content-wrap .area-list .title .tag-list .t1:last-child s{display:none}
+.shihuo-content-wrap .area-list .inner{margin-top:-1px}
+.shihuo-content-wrap .area-list .inner ul.youhui_list li{float:left;width:382px;height:170px;border:1px #e5e5e5 solid;margin-left:-1px;margin-top:-1px;position:relative;padding:20px;background-color:#fff;overflow:hidden}
+.shihuo-content-wrap .area-list .inner ul.youhui_list li.on{border:1px #b50000 solid}
+.shihuo-content-wrap .area-list .inner ul.youhui_list li .imgs{width:142px;height:142px;overflow:hidden;text-align:center;margin:0 auto;float:left;vertical-align:middle}
+.shihuo-content-wrap .area-list .inner ul.youhui_list li .imgs a{width:112px;height:112px;display:table-cell;vertical-align:middle;text-align:center}
+.shihuo-content-wrap .area-list .inner ul.youhui_list li .t2{float:right;overflow:hidden;width:230px;vertical-align:middle;padding-top:10px}
+.shihuo-content-wrap .area-list .inner ul.youhui_list li .t2 .tit{font-size:14px;margin-bottom:10px;font-family:"\5FAE\8F6F\96C5\9ED1";line-height:1.5em}
+.shihuo-content-wrap .area-list .inner ul.youhui_list li .t2 .tit span{color:#ad0007}
+.shihuo-content-wrap .area-list .inner ul.youhui_list li .t2 .tit a{font-family:"\5FAE\8F6F\96C5\9ED1"}
+.shihuo-content-wrap .area-list .inner ul.youhui_list li .t2 .details{color:#666;font-size:12px;height:50px;width:100%;overflow:hidden}
+.shihuo-content-wrap .area-list .inner ul.youhui_list li .bottom{color:#999999;width:380px;position:absolute;bottom:13px}
+.shihuo-content-wrap .area-list .inner ul.youhui_list li .bottom .right{float:right}
+.shihuo-content-wrap .area-list .inner ul.youhui_list li .bottom .right .goto-link{margin-top:-5px;text-align:right}
+.shihuo-content-wrap .area-list .inner ul.youhui_list li .bottom .right .goto-link a{display:inline-block;text-align:center;padding:5px 15px;border:1px solid #e3e3e3;font-size:12px;font-weight:bolder;color:#bebebe}
+.shihuo-content-wrap .area-list .inner ul.youhui_list li .bottom .right .goto-link a.on,.shihuo-content-wrap .area-list .inner ul.youhui_list li .bottom .right .goto-link a:hover{color:#fff;background-color:#ad0007;text-decoration:none}
+.shihuo-content-wrap .area-list .inner ul.youhui_list li .bottom .right .goto-link a.gray{background-color:#929292;color:#fff}
+.shihuo-content-wrap .area-list .inner ul.youhui_list li .bottom .left{float:left;margin-top:5px}
+.shihuo-content-wrap .area-list .inner ul.youhui_list li .bottom .left .icon_say{padding-left:23px;background:url("/images/trade/discount/icon_say.png") left center no-repeat}
+.shihuo-content-wrap .area-list .inner ul.youhui_list li .bottom .left .icon_sc{padding-left:23px;background:url("/images/trade/discount/icon_sc.png") left center no-repeat;margin-left:10px}
+.shihuo-content-wrap .area-list .inner ul.youhui_list li:hover .goto-link a{color:#fff !important;background-color:#ad0007;text-decoration:none}
+.shihuo-content-wrap .area-list .inner ul.banner_block_list{width:875px}
+.shihuo-content-wrap .area-list .inner ul.banner_block_list li{float:left;width:197px;height:242px;border:1px #e5e5e5 solid;margin-left:-1px;margin-top:-1px;position:relative;padding:10px;background-color:#fff;overflow:hidden}
+.shihuo-content-wrap .area-list .inner ul.banner_block_list li:hover .imgs a:after{opacity:.3;*filter:opacity('alpha=30');transition:all .3s;-webkit-transition:all .3s;-moz-transition:all .3s}
+.shihuo-content-wrap .area-list .inner ul.banner_block_list li:hover .tit a{color:#b50000}
+.shihuo-content-wrap .area-list .inner ul.banner_block_list li.on{border:1px #b50000 solid}
+.shihuo-content-wrap .area-list .inner ul.banner_block_list li .imgs{width:156px;height:156px;overflow:hidden;text-align:center;margin:0 auto}
+.shihuo-content-wrap .area-list .inner ul.banner_block_list li .imgs a{width:156px;height:156px;display:table-cell;vertical-align:middle;text-align:center;position:relative}
+.shihuo-content-wrap .area-list .inner ul.banner_block_list li .imgs a:after{content:"";width:100%;height:100%;background-color:#fff;opacity:0;*filter:opacity('alpha=0');position:absolute;top:0;left:0;z-index:10}
+.shihuo-content-wrap .area-list .inner ul.banner_block_list li .tit{font-size:12px;font-family:"Microsoft Yahei";font-weight:normal;line-height:18px;height:35px;margin-top:8px;overflow:hidden;text-align:left}
+.shihuo-content-wrap .area-list .inner ul.banner_block_list li .tit span{color:#b50000}
+.shihuo-content-wrap .area-list .inner ul.banner_block_list li .tit a{color:#555555;font-size:14px}
+.shihuo-content-wrap .area-list .inner ul.banner_block_list li .tit a:hover{color:#a41f24}
+.shihuo-content-wrap .area-list .inner ul.banner_block_list li .price{color:#999999;font-size:12px;text-align:center;margin-top:13px}
+.shihuo-content-wrap .area-list .inner ul.banner_block_list li .price .t1{float:left;overflow:hidden;text-align:left}
+.shihuo-content-wrap .area-list .inner ul.banner_block_list li .price .t1 span{color:#b50000;font-size:20px;display:inline-block;width:65px;vertical-align:bottom;overflow:hidden;position:relative;top:3px;letter-spacing:.3px}
+.shihuo-content-wrap .area-list .inner ul.banner_block_list li .price .t1 i{font-size:12px;color:#b50000;padding-left:6px}
+.shihuo-content-wrap .area-list .inner ul.banner_block_list li .price .t2{float:right;width:40%;padding-top:8px;text-align:right;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.shihuo-content-wrap .area-list .inner .left_banner{width:205px;height:527px;overflow:hidden;float:left;position:relative}
+.shihuo-content-wrap .area-list .inner .left_banner .hot{padding:25px 10px 30px;position:absolute;bottom:0;left:0;background:url("/images/trade/haitao/index/haitao-fade.png") left top repeat-y;width:184px}
+.shihuo-content-wrap .area-list .inner .left_banner .hot h3{font-size:16px;color:#000;margin-bottom:10px;padding-left:10px}
+.shihuo-content-wrap .area-list .inner .left_banner .hot h3 i{font-style:italic;font-weight:700}
+.shihuo-content-wrap .area-list .inner .left_banner .hot a{color:#333333;line-height:30px;font-size:14px;font-family:"Microsoft Yahei";display:block;float:left;width:40%;padding-left:10px}
+.shihuo-content-wrap .area-list .inner .left_banner .hot a:hover{color:#a41f24}
+.shihuo-content-wrap .area-list .inner .right_list{float:left;width:848px;margin-top:1px}
+.shihuo-content-wrap .area-list ul.js_block_list{margin-left:2px;margin-top:1px}
+.shihuo-content-wrap .area-list ul.js_block_list li{float:left;width:194px;height:190px;font-family:"Microsoft Yahei";border:1px #e5e5e5 solid;margin-left:-1px;margin-top:-1px;position:relative;padding:10px;background-color:#fff;overflow:hidden}
+.shihuo-content-wrap .area-list ul.js_block_list li.on{border:1px #b50000 solid}
+.shihuo-content-wrap .area-list ul.js_block_list li .imgs{width:112px;height:112px;overflow:hidden;text-align:center;margin:0 auto}
+.shihuo-content-wrap .area-list ul.js_block_list li .imgs a{width:112px;height:112px;display:table-cell;vertical-align:middle;text-align:center}
+.shihuo-content-wrap .area-list ul.js_block_list li .tit{font-size:14px;font-family:"Microsoft yahei";font-weight:normal;line-height:18px;height:35px;margin-top:5px;overflow:hidden;text-align:center}
+.shihuo-content-wrap .area-list ul.js_block_list li .tit span{color:#b50000}
+.shihuo-content-wrap .area-list ul.js_block_list li .tit a{color:#444;font-size:14px;font-family:"MicroSoft YaHei"}
+.shihuo-content-wrap .area-list ul.js_block_list li .price{color:#999999;font-size:12px;text-align:center}
+.shihuo-content-wrap .area-list ul.js_block_list li .price span{color:#b50000;font-size:20px}
+.shihuo-content-wrap .area-list ul.js_block_list li .price i{font-size:12px;color:#b50000;padding-left:6px}
+.shihuo-content-wrap .every-day{border:1px #e5e5e5 solid;overflow:hidden;moz-user-select:-moz-none;-moz-user-select:none;-o-user-select:none;-khtml-user-select:none;-webkit-user-select:none;-ms-user-select:none;user-select:none;width:1078px;margin-bottom:25px}
+.shihuo-content-wrap .every-day .left{float:left;width:229px;height:219px;position:relative;z-index:30;overflow:hidden}
+.shihuo-content-wrap .every-day .right{width:849px;height:199px;float:left;padding:10px 0;position:relative}
+.shihuo-content-wrap .every-day .right .l-fade{position:absolute;left:0;top:50%;margin-top:-25px;background:url("/images/trade/haitao/fa-left.png") left center no-repeat;width:23px;height:50px;z-index:11;cursor:pointer}
+.shihuo-content-wrap .every-day .right .r-fade{position:absolute;right:0;top:50%;margin-top:-25px;background:url("/images/trade/haitao/fa-right.png") left center no-repeat;width:23px;height:50px;z-index:11;cursor:pointer}
+.shihuo-content-wrap .every-day .right ul{position:absolute;left:0;top:10px;width:3000px}
+.shihuo-content-wrap .every-day .right li{float:left;position:relative;line-height:18px}
+.shihuo-content-wrap .every-day .right li .list{width:192px;height:199px;padding:0 10px;text-align:center;position:relative;float:left}
+.shihuo-content-wrap .every-day .right li .list .title-f{height:17px;overflow:hidden;line-height:18px}
+.shihuo-content-wrap .every-day .right li .post-tips{background:url("/images/trade/haitao/index/haitao_index_tips_bg.png") left center no-repeat;width:62px;height:24px;line-height:18px;position:absolute;left:10px;top:0;color:#fff;text-align:center;font-weight:bold;font-family:"微软雅黑"}
+.shihuo-content-wrap .every-day .right li .imgs{height:130px;margin:15px 0 10px 0}
+.shihuo-content-wrap .every-day .right li .imgs img{max-width:130px;max-height:130px}
+.shihuo-content-wrap .every-day .right li .title-f{font-size:14px;font-weight:bold;text-overflow:ellipsis;white-space:nowrap}
+.shihuo-content-wrap .every-day .right li .price{color:#999999;font-size:12px;text-align:center;margin-top:5px}
+.shihuo-content-wrap .every-day .right li .price span{color:#b50000;font-size:20px}
+.shihuo-content-wrap .every-day .right li .price i{font-size:12px;color:#b50000;padding-left:6px}
+.shihuo-content-wrap .preferential .title{border-bottom:1px #ebebeb solid;width:auto}
+.shihuo-content-wrap .preferential .left_block{width:203px;height:274px;overflow:hidden;float:left;border-left:1px solid #e5e5e5;border-bottom:1px solid #e5e5e5;position:relative}
+.shihuo-content-wrap .preferential .left_block img{max-width:100%;max-height:100%}
+.shihuo-content-wrap .preferential .left_block .font-layer{position:absolute;width:230px;height:132px;left:0;top:142px;background-color:#fff;opacity:.5;filter:alpha(opacity=50);display:none}
+.shihuo-content-wrap .preferential .left_block .font-list{position:absolute;z-index:10;left:0;top:123px;height:141px;overflow:hidden}
+.shihuo-content-wrap .preferential .left_block .font-list .t1{display:inline-block;width:75px;margin:15px 0 0 18px;font-size:14px;vertical-align:top}
+.shihuo-content-wrap .preferential .right_list{float:left;width:875px;height:254px;padding:10px 0;border-right:1px solid #e5e5e5;border-bottom:1px solid #e5e5e5}
+.shihuo-content-wrap .preferential .right_list li{float:left;width:191px;height:250px;padding:0 13px;border-left:1px transparent solid;text-align:center}
+.shihuo-content-wrap .preferential .right_list li .imgs{width:145px;height:145px;border:1px transparent solid;margin:0 auto;margin-top:10px}
+.shihuo-content-wrap .preferential .right_list li .imgs img{width:145px;height:145px}
+.shihuo-content-wrap .preferential .right_list li .title-f{font-size:14px;font-weight:bold;margin-top:15px;height:18px;overflow:hidden;line-height:20px}
+.shihuo-content-wrap .preferential .right_list li .tips{font-size:14px;font-weight:bold;color:#b50000;margin-top:3px}
+.shihuo-content-wrap .preferential .right_list .bottom{color:#999999;margin-top:15px}
+.shihuo-content-wrap .preferential .right_list .bottom .right{float:right}
+.shihuo-content-wrap .preferential .right_list .bottom .right .goto-link{text-align:right}
+.shihuo-content-wrap .preferential .right_list .bottom .right .goto-link a{display:inline-block;text-align:center;padding:3px 5px;border:1px solid #e5e5e5;font-size:12px;color:#666666}
+.shihuo-content-wrap .preferential .right_list .bottom .right .goto-link a.on,.shihuo-content-wrap .preferential .right_list .bottom .right .goto-link a:hover{color:#fff;background-color:#ad0007;text-decoration:none}
+.shihuo-content-wrap .preferential .right_list .bottom .right .goto-link a.gray{background-color:#929292;color:#fff}
+.shihuo-content-wrap .preferential .right_list .bottom .left{float:left;margin-top:5px}
+.shihuo-content-wrap .preferential .right_list .bottom .left a{color:#999999}
+.shihuo-content-wrap .preferential .right_list .bottom .left .icon_say{padding-left:23px;background:url("/images/trade/discount/icon_say.png") left center no-repeat}
+.shihuo-content-wrap .preferential .right_list .bottom .left .icon_sc{padding-left:23px;background:url("/images/trade/discount/icon_sc.png") left center no-repeat;margin-left:10px}
+
+
+.imageStyle {
+	padding:20px 20px 20px 20px;
+}
+
+#floor-num {
+	color: #FF1493;
+}
+
+#floor-word {
+	color: grey;
+	font-family:"Times New Roman",Georgia,Serif;
+}
+
+.footBlank {
+  height:100px;
+  width:100%;
+}
