@@ -19,7 +19,7 @@
             $this->WhichType = isset($arr['WhichType']) ? $arr['WhichType'] : 'mysql';
             $this->host = isset($arr['host']) ? $arr['host'] : 'localhost';
             $this->port = isset($arr['port']) ? $arr['port'] : '3306';
-            $this->dbName = isset($arr['dbName']) ? $arr['dbName'] : 'UMS';
+            $this->dbName = isset($arr['dbName']) ? $arr['dbName'] : 'E_commerce';
             $this->user = isset($arr['user']) ? $arr['user'] : 'root';
             $this->pwd = isset($arr['pwd']) ? $arr['pwd'] : 'root';
             $this->charset = isset($arr['charset']) ? $arr['charset'] : 'utf8';

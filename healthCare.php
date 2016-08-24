@@ -4,54 +4,48 @@
 
 	// item type name
 	$itemType = "";
+	$total = "";
 
 	if(isset($_GET["id"]))
 	{
 		// get id
 		$id = $_GET["id"];
 
-		//get inforamtion by id
+		// get inforamtion by id
 		$pdo = new PDOHelper(array('charset'=> 'UTF8'));
 
-		//build query string
-		$sql="SELECT * FROM items AS i WHERE id='$id'";
+		// build query string to get itemtypeName info.
+		$sql ="SELECT * FROM itemTypes WHERE id = '$id'";
 
-		//call pdoHelper method getRow() and get result.
+		// get itemtypeName.
 		$res = $pdo->getRow($sql);
 
-		//
-		if ($res["itemType"] == 1) {
-			$itemType = "化妆护肤品";
-		}
-		else if ($res["itemType"] == 2) {
-			$itemType = "服饰/鞋";
-		}
-		else if ($res["itemType"] == 3) {
-			$itemType = "首饰/饰品";
-		}
-		else if ($res["itemType"] == 4) {
-			$itemType = "保健";
-		}
-		else if ($res["itemType"] == 5) {
-			$itemType = "日用";
-		}
-		else if ($res["itemType"] == 6) {
-			$itemType = "母婴";
-		}
-		else if ($res["itemType"] == 7) {
-			$itemType = "食品";
-		}
-		else if ($res["itemType"] == 8) {
-			$itemType = "包";
-		}
-		else if ($res["itemType"] == 9) {
-			$itemType = "其他";
-		}
-		else if (condition) {
-			$itemType = "优惠信息";
-		}
+		// set itemtype.
+		$itemType =$res["itemTypeName"];
 
-		echo $itemType;
+		//build query string
+		$sql="SELECT i.id, i.itemName, it.itemTypeName, i.itemPicture, i.itemDescription, i.itemType 
+			  FROM items AS i 
+			  INNER JOIN itemTypes AS it 
+			  ON it.id = i.itemType
+		      HAVING i.itemType = '$id'";
+
+		//call pdoHelper method getRow() and get result.
+		$res = $pdo->getAll($sql);
+	}
+	else if (isset($_GET["itemBrand"])) {
+
+		// get name of itemBrand
+		$itemBrand = $_GET["itemBrand"];
+
+		// initial PDOHelper.
+		$pdo = new PDOHelper(array('charset'=> 'UTF8'));
+
+		// build query string to get itemtypeName info.
+		$sql ="SELECT * FROM items WHERE itemBrand = $itemBrand";
+
+		// get itemtypeName.
+		$res = $pdo->getAll($sql);
 	}
 ?>
 
@@ -65,7 +59,7 @@
 <script src="js/bootstrap.min.js"></script>
 <script src="js/contentIndex.js"></script>
 <link type="text/css" rel="stylesheet" href="css/style.css">
-<link type="text/css" rel="stylesheet" href="css/index.css">
+<link type="text/css" rel="stylesheet" href="css/healthCare.css">
 
 <title>E-Commerce</title>
 </head>
@@ -103,29 +97,34 @@
 	    </div>
 	  </div>
 	</nav>
-		<table class="table">
+		<table class="table" id="tab">
 			<thead>
 			  <tr>
-			    <h3><?php echo $res["itemTypeName"];?></h3>
+			    <h3><?php if (isset($itemType)) {
+			    	echo $itemType;
+			    }
+			    else if (isset($itemBrand)) {
+			    	echo $itemBrand;
+			    }?>
+			    </h3>
 			  </tr>
 			</thead>
-			<tbody>
-			  <tr>
-			    <td>John</td>
-			    <td>Doe</td>
-			  </tr>
-			  <tr>
-			    <td>Mary</td>
-			    <td>Moe</td>
-			  </tr>
-			  <tr>
-			    <td>July</td>
-			    <td>Dooley</td>
-			  </tr>
-			</tbody>
+			<?php
+				foreach ($res as $value) {
+					echo "<tbody><tr>";
+			?>
+			    	<td>
+			    		<img src="<?php echo $value["itemPicture"] ?>"  class="img-thumbnail" alt="Cinque Terre" width="1000" height="1000"></img>
+			    	</td>
+			    	<td><h3><?php echo $value["itemName"];?></h3><br />
+			    		<h4><?php echo $value["itemDescription"];?></h4>
+			    	</td>
+			<?php 
+					echo"</tr></tbody>";
+					}
+			?>
 		</table>
 	<div/>
-
 </div>
 <div class="col-sm-1"></div>
 </div>

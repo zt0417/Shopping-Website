@@ -2,12 +2,12 @@
 	padding: 0;
 } 
 
+#nopadding {
+	padding: 0;
+} 
+
 #nomargin {
 	margin:0;
-}
-
-.logo {
-	content:url(../images/logo.png);
 }
 
 #floatleft {
@@ -37,3 +37,13 @@ h1 {
 .navbar-custom a {
     color: #fff;
 }*/
+html {
+	background-color: #F5F5F5;
+}
+
+#tab {
+	color:grey;
+	font-size:12px;
+	text-align:center;
+	background-color:white；
+}

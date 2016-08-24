@@ -12,7 +12,7 @@
 <link rel="stylesheet" href="css/swiper.min.css">
 <link rel="stylesheet" href="css/bootstrap.min.css">
 
-<title>E-Commerce</title>
+<title>同福杂货铺</title>
 </head>
 <body>
 
@@ -42,12 +42,12 @@ window.onload = function(){
 </script>
 <div class="col-sm-1"></div>
 <div class="col-sm-10">
-	<div class="page-header nopadding">
-		<div class="logo" id="floatleft"></div>
-    	<h1>好虚荣代购 <p id="floatright" class="contentWord"><img src="images/weChat.jpg" alt="">联系我们： wechat_1234</p></h1>
+	<div class="page-header nopadding" id="nomargin">
+		<div id="floatleft"><img src="images/logo.gif" height="55px" weight="250px" border="0"></div>
+    	<h1>同&nbsp;&nbsp;福&nbsp;&nbsp;杂&nbsp;&nbsp;货&nbsp;&nbsp;铺<p id="floatright" class="contentWord"><img src="images/weChat.jpg" alt="">联系我们： wechat_1234</p></h1>
  
     </div>
-	<nav class="navbar navbar-inverse navbar-custom" id="nomargin">
+<!--<nav class="navbar navbar-inverse navbar-custom" id="nomargin">
 	  <div class="container-fluid">
 	    <div class="navbar-header">
 	      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
@@ -72,19 +72,19 @@ window.onload = function(){
 	      </ul>
 	    </div>
 	  </div>
-	</nav>
+	</nav> -->
 	<div class="shihuo-content-wrap">
-		<div class="top-area clearfix">
+		<div class="top-area clearfix" id="nopadding">
 			<div class="nav-list-main">
 				<ul class="list-item">
-					<li class=""><div></div><a>化妆护肤品</a><s class="icon-arrow"></s></li>
+					<li class=""><div></div><a href="healthCare.php?id=4">保健</a><s class="icon-arrow"></s></li>
+					<li class=""><div></div><a>日用</a><s class="icon-arrow"></s></li>
+					<li class=""><div></div><a href="healthCare.php?id=6">母婴</a><s class="icon-arrow"></s></li>
+					<li class=""><div></div><a href="healthCare.php?id=7">食品</a><s class="icon-arrow"></s></li>
+					<li class=""><div></div><a>包</a><s class="icon-arrow"></s></li>
 					<li class=""><div></div><a>服饰/鞋</a><s class="icon-arrow"></s></li>
 					<li class=""><div></div><a>首饰/饰品</a><s class="icon-arrow"></s></li>
-					<li class=""><div></div><a href="healthCare.html">保健</a><s class="icon-arrow"></s></li>
-					<li class=""><div></div><a>日用</a><s class="icon-arrow"></s></li>
-					<li class=""><div></div><a>母婴</a><s class="icon-arrow"></s></li>
-					<li class=""><div></div><a>食品</a><s class="icon-arrow"></s></li>
-					<li class=""><div></div><a>包</a><s class="icon-arrow"></s></li>
+					<li class=""><div></div><a>化妆护肤品</a><s class="icon-arrow"></s></li>	
 					<li class=""><div></div><a>其他</a><s class="icon-arrow"></s></li>
 					<li class=""><div></div><a>优惠信息</a><s class="icon-arrow"></s></li>
 				</ul>
@@ -178,10 +178,12 @@ window.onload = function(){
 					</dl>
 					<dl class="clearfix">
 						<dt>品牌</dt>
-						<dd><a>.</a></dd>
-						<dd><a>..</a></dd>
-						<dd><a>...</a></dd>
-						<dd><a>....</a></dd>
+						<dd>
+							<a href="healthCare.php?itemBrand='Webber naturals'" target="_blank">Webber naturals</a>
+							<a href="healthCare.php?itemBrand='Jamieson'" target="_blank">Jamieson</a>
+							<a href="healthCare.php?itemBrand='Centrum'" target="_blank">Centrum</a>
+							<a href="healthCare.php?itemBrand='Kirkland'" target="_blank">Kirkland</a>
+						</dd>
 					</dl>
 					<dl class="clearfix">
 						<dt>价格</dt>
@@ -326,14 +328,14 @@ window.onload = function(){
 				<!-- Swiper -->
 			    <div class="swiper-container">
 			        <div class="swiper-wrapper">
-			            <div class="swiper-slide"><img src="images/monster1.jpg" style="width:209;height:600"; alt="" /></div>
+			            <div class="swiper-slide"><img src="images/ADFive.jpg" style="width:209;height:600"; alt="" /></div>
 			        </div>
 				    <!-- Add Pagination -->
 				    <div class="swiper-pagination"></div>
 			    </div>
 			</div>
 		</div>
-		<div class="tips-sub"><img src="images/ADRight.jpg" alt=""></div>
+		<div class="tips-sub"><img src="images/ADRight.jpg"></div>
 	</div>
 
 
@@ -343,30 +345,56 @@ window.onload = function(){
 	  </div>
 	</div>
 	<div class="table-responsive">
-		<table class="table">
+		<table class="table" id="tab">
 			<tbody>
 			  <tr>
-				<th id="noPadding"><img class="img-responsive noPadding imageStyle" src="images/clothesOne.jpg"></img><a href="item.php?id=11">White T-Shirt</a></th>
-				<th id="noPadding"><img class="img-responsive noPadding imageStyle" src="images/clothesOne.jpg"></img><a href="item.php?id=11">White T-Shirt</a></th>
-				<th id="noPadding"><img class="img-responsive noPadding imageStyle" src="images/clothesTwo.jpg"></img><a href="item.php?id=12">Colorful T-Shirt</a></th>
-				<th id="noPadding"><img class="img-responsive noPadding imageStyle" src="images/clothesThree.jpg"></img><a href="item.php?id=13">Black Pean</a></th>
-				<th id="noPadding"><img class="img-responsive noPadding imageStyle" src="images/clothesFour.jpg"></img><a href="item.php?id=14">Black T-Shirt</a></th>
-				<th id="noPadding"><img class="img-responsive noPadding imageStyle" src="images/clothesFour.jpg"></img><a href="item.php?id=14">Black T-Shirt</a></th>
-				<th id="noPadding"><img class="img-responsive noPadding imageStyle" src="images/clothesFour.jpg"></img><a href="item.php?id=14">Black T-Shirt</a></th>
-				<th id="noPadding"><img class="img-responsive noPadding imageStyle" src="images/clothesOne.jpg"></img><a href="item.php?id=11">White T-Shirt</a></th>
+				<th id="noPadding"><img class="img-responsive noPadding imageStyle" src="images/clothesOne.jpg"></img><a href="item.php?id=11">[买手推荐]</a></th>
+				<th id="noPadding"><img class="img-responsive noPadding imageStyle" src="images/clothesOne.jpg"></img><a href="item.php?id=11">[买手推荐]</a></th>
+				<th id="noPadding"><img class="img-responsive noPadding imageStyle" src="images/clothesTwo.jpg"></img><a href="item.php?id=12">[买手推荐]</a></th>
+				<th id="noPadding"><img class="img-responsive noPadding imageStyle" src="images/clothesThree.jpg"></img><a href="item.php?id=13">[买手推荐]</a></th>
+				<th id="noPadding"><img class="img-responsive noPadding imageStyle" src="images/clothesFour.jpg"></img><a href="item.php?id=14">[买手推荐]</a></th>
+				<th id="noPadding"><img class="img-responsive noPadding imageStyle" src="images/clothesFour.jpg"></img><a href="item.php?id=14">[买手推荐]</a></th>
+			  </tr>
+			</tbody>
+		</table>
+		<table class="table" id="tab">
+			<tbody>
+			  <tr>
+				<th id="noPadding"><img class="img-responsive noPadding imageStyle" src="images/clothesOne.jpg"></img><a href="item.php?id=11">[买手推荐]</a></th>
+				<th id="noPadding"><img class="img-responsive noPadding imageStyle" src="images/clothesOne.jpg"></img><a href="item.php?id=11">[买手推荐]</a></th>
+				<th id="noPadding"><img class="img-responsive noPadding imageStyle" src="images/clothesTwo.jpg"></img><a href="item.php?id=12">[买手推荐]</a></th>
+				<th id="noPadding"><img class="img-responsive noPadding imageStyle" src="images/clothesThree.jpg"></img><a href="item.php?id=13">[买手推荐]</a></th>
+				<th id="noPadding"><img class="img-responsive noPadding imageStyle" src="images/clothesFour.jpg"></img><a href="item.php?id=14">[买手推荐]</a></th>
+				<th id="noPadding"><img class="img-responsive noPadding imageStyle" src="images/clothesFour.jpg"></img><a href="item.php?id=14">[买手推荐]</a></th>
+			  </tr>
+			</tbody>
+		</table>
+		<table class="table" id="tab"> 
+			<tbody>
+			  <tr>
+				<th id="noPadding"><img class="img-responsive noPadding imageStyle" src="images/clothesOne.jpg"></img><a href="item.php?id=11">[买手推荐]</a></th>
+				<th id="noPadding"><img class="img-responsive noPadding imageStyle" src="images/clothesOne.jpg"></img><a href="item.php?id=11">[买手推荐]</a></th>
+				<th id="noPadding"><img class="img-responsive noPadding imageStyle" src="images/clothesTwo.jpg"></img><a href="item.php?id=12">[买手推荐]</a></th>
+				<th id="noPadding"><img class="img-responsive noPadding imageStyle" src="images/clothesThree.jpg"></img><a href="item.php?id=13">[买手推荐]</a></th>
+				<th id="noPadding"><img class="img-responsive noPadding imageStyle" src="images/clothesFour.jpg"></img><a href="item.php?id=14">[买手推荐]</a></th>
+				<th id="noPadding"><img class="img-responsive noPadding imageStyle" src="images/clothesFour.jpg"></img><a href="item.php?id=14">[买手推荐]</a></th>
 			  </tr>
 			</tbody>
 		</table>
 	</div>
-	<div class="footBlank"></div>
+</div>
+<div class="footBlank"></div>
+<p style="text-align: center">END</p>
+<div class="footBlank col-sm-12">
 	<!-- footer -->
-	<div>
+<!-- 	<div>
 		<div class="navbar navbar-default navbar-fixed-bottom">
 			<div class="contrainer">
-				<p class="navbar-text">Site Build By Tong</p>
+				<p class="navbar-text">Site Build B Tong</p>
 			</div>
 		</div>
-	</div>
+	</div> -->
+
 </div>
 <script src="js/swiper.min.js"></script>
 <!-- Initialize Swiper -->
@@ -376,6 +404,33 @@ window.onload = function(){
 	        paginationClickable: true
 	    });
 </script>
-<div class="col-sm-1"></div>
+
+<div class="footContent">
+	<div class="splitLine"></div>
+	<div class="footerCenter">
+		<div class="col-sm-3">
+			<h4>关于我们</h4>
+			<h5><a href="about.html">关于同福</a></h5>
+			<h5><a href="contactMe.html">联系我们</a></h5>
+			<h5><a href="suggest.html">意见反馈</a></h5>
+		</div>
+		<div class="col-sm-3">
+			<h4>商家服务</h4>
+			<h5><a href="businessCenter.html">商家中心</a></h5>
+		</div>
+		<div class="col-sm-3">
+			<h4>同福帮助</h4>
+			<h5><a href="helpCenter.html">同福帮助中心</a></h5>
+			<h5><a href="shoppingHelp.html">购物帮助</a></h5>
+		</div>
+		<div class="col-sm-3">
+			<h4>关注我们</h4>
+			<h5>微信</h5>
+			<h5><a href="#">新浪微博</a></h5>
+		</div>
+	</div>
+</div>
+
+<div class="footBlank"></div>
 </body>
 </html>
